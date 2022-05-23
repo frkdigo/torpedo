@@ -7,12 +7,12 @@ public class Hajo {
         this.pozicio = poz;
     }
     
-    public String talalat(int poz){
+    public boolean talalat(int poz){
         // eldöntés tétele
         int i = 0, N = this.pozicio.length;
         while(i < N && !(pozicio[i] == poz)){
             i++;
         }
-        return i < N ? "talált" : "mellé";
+        return "";
     }
 }
